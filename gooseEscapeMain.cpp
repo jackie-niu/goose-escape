@@ -9,12 +9,11 @@ using namespace std;
 #include "gooseEscapeConsole.hpp"
 #include "gooseEscapeGamePlay.hpp"
 
-//set up the console.   Don't modify this line!
 Console out;
 
 int main()
 {
-	//Set up the window.  Don't edit these two lines
+	
     terminal_open();
   	terminal_set(SETUP_MESSAGE);
 	
