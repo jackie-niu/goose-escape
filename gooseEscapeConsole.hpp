@@ -1,8 +1,3 @@
-/*
-    STUDENTS: Don't change the code in this file (unless you are very
-                comfortable with using the BearLibTerminal) 
-*/ 
-
 #ifndef GOOSE_CONSOLE
 #define GOOSE_CONSOLE
 #include <iostream>
@@ -10,10 +5,6 @@ using namespace std;
 #include <BearLibTerminal.h>
 #include "gooseEscapeUtil.hpp"
 
-/* 
-    Going further:  Learn the other syntax for implementing a class that is
-    more appropriate for working with multiple files, and improve the class code.
-*/
 class Console
 {
   private:
@@ -52,10 +43,6 @@ class Console
         terminal_refresh();
     }
 
-/*
-    Having more than one console is a bad idea.  So you really shouldn't be
-    calling these functions.
-*/
     Console(Console const & src)
     {
         // memory allocation of array is fixed, so copy constructor and assignment operator are the same
